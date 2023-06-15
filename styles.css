@@ -1,0 +1,146 @@
+body{
+   background-color: #E0F4EF;
+   color: black;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 15px;
+
+}
+
+/*style cabeçalho*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+  
+}
+
+
+/*style dos botões*/
+
+.traducao-btn{
+    background-color: #72C24E;  /*cor botão*/
+    color: white;              /*cor letra*/
+    font-size: 12px;            /* tamanho fonte*/
+    padding: 10px 15px;        /*espaçamento interno*/
+    border-radius: 18px;      /*borda*/
+    cursor: pointer;         /*interatividade*/
+    display: inline-block;  /*carac. bloco de nível*/
+    transition: 0.1s;      /*transição suave*/
+}
+
+.traducao-btn:hover{
+
+    background-color: #15473C;  /*cor de interatividade*/
+}
+
+.contatos-btn{
+    background-color: #72C24E;
+    color: white;
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 18px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+}
+
+.contatos-btn:hover{
+    background-color: #15473C;
+}
+
+
+.sigaa-btn{
+    background-color: #72C24E;
+    color: white;
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 18px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+    
+}
+
+.sigaa-btn:hover{
+    background-color: #15473C;
+}
+
+.acessarNormas-btn{
+    margin-top: 25px ;      /*espaçamento superior*/
+    margin-left: -40px;    /*epaçamento esquerdo*/
+    width: 120px;         /*largura*/
+    background-color: #72C24E;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 18px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+
+}
+
+/*.acessarNormas.animate-btn{
+    animation: animate-outline 1s ease-out infinite;
+}*/
+
+.acessarNormas-btn:hover{
+    background-color: #15473C;
+}
+
+
+
+/*@keyframes animate-outline{
+    from{
+        outline: 0px solid #9cc789;
+
+    }
+    to{
+        outline: 15px solid #cce6c1;
+
+    }
+}*/
+
+/*----------------------------------------*/
+
+/*style parte central da Tela Inicial*/
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+/*style do titulo do site na tela inicial*/
+
+h2{
+    margin-top: 80px;
+    font-size: 45px;
+    line-height: 10px;
+
+}
+
+/*-----------------------------------------*/
+
+p{ /*paragrafo de descrição*/
+    text-align: justify;
+    line-height: 20px;
+    max-width: 500px;
+
+}
+img{
+    width: 400px;
+}
+
